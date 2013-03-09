@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Amaze - HTML5 Multiplayer Game</title>
+		<link rel="stylesheet" type="text/css" href="styles/amaze.css" />
+	</head>
+	<body>
+		<div id="fps"></div>
+		<div id="menu">
+			<h1>Amaze</h1>
+			<h4>First-Person Shooter</h4>
+			<div id="login">
+				<label for="username">Username:</label>
+				<input type="text" name="username" id="username" /><br />
+				<button id="play_button">Play</button>
+			</div>
+			<p>
+				<u>Movement</u>:<br />
+				<span class="indent">Forward: <span class="control">W</span><br /></span>
+				<span class="indent">Backward: <span class="control">S</span><br /></span>
+				<span class="indent">Strafe Left: <span class="control">A</span><br /></span>
+				<span class="indent">Strafe Right: <span class="control">D</span><br /></span>
+				<span class="indent">Jump: <span class="control">Space</span><br /></span>
+				<u>Look</u>:<br />
+				<span class="indent">Left: </span><span class="control">Left-Arrow</span><br /></span>
+				<span class="indent">Right: </span><span class="control">Right-Arrow</span><br /></span>
+				<u>Weapons</u>:<br />
+				<span class="indent">Fire weapon: <span class="control">/</span><br /></span>
+				<u>Chat</u>:<br />
+				<span class="indent">Chat: <span class="control">Enter</span></span>
+			</p>
+		</div>
+		<div id="stats">
+			<div id="charinfo">
+				<div id="charname"></div>
+				<div id="charhealth">
+					<progress id="healthprog" max="100" value="100"></progress>
+				</div>
+				<div id="charammo"></div>
+			</div>
+			<div id="game-history"></div>
+			<div id="chat-history"></div>
+			<div id="chat">
+				<input type="text" name="message" id="message" placeholder="Hit Enter to Send..."/>
+			</div>
+		</div>
+		<div id="points"></div>
+		<script type="text/javascript" src="js/Cufon-Yui.js"></script>
+		<script type="text/javascript" src="js/Bump_Pad_400.font.js"></script>
+		<script type="text/javascript" src="js/Three.js"></script>
+		<script type="text/javascript" src="js/THREEx.KeyboardState.js"></script>
+		<script type="text/javascript" src="js/jiglibjs.combined.js"></script>
+		<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+		<script type="text/javascript" src="js/Vars.js"></script>
+		<script type="text/javascript" src="js/Graphics.js"></script>
+		<script type="text/javascript" src="js/Controls.js"></script>
+		<script type="text/javascript" src="js/Network.js"></script>
+		<script type="text/javascript" src="http://64.250.114.60:2143/socket.io/socket.io.js"></script>
+	</body>
+</html>

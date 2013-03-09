@@ -1,0 +1,221 @@
+body {
+	background-color: #000;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+progress,
+progress[role] {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: none;
+	background-size: auto;
+	width: 100%;
+	height: 10px;
+}
+progress[role]:after {
+	background-image: none;
+}
+progress[role] strong {
+	display: none;
+}
+progress::-webkit-progress-bar {
+	background: #000000;
+}
+progress::-webkit-progress-value {
+    background: #ff0000;
+}
+#charname {
+	padding-top: 15px;
+	width: 100%;
+	text-align: center;
+	font-size: 19px;
+}
+#charhealth {
+	padding: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+#charammo {
+	width: 100%;
+	padding: 5px;
+}
+#login {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+#login input {
+	width: 125px;
+}
+#fps {
+	position: absolute;
+	width: 75px;
+	height: 45px;
+	
+	top: -15px;
+	left: -15px;
+	
+	border-right: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	
+	padding-top: 25px;
+	padding-left: 25px;
+	
+	border-radius: 15px;
+	background-color: #E36B23;
+	box-shadow: 2px 5px 3px #888;
+}
+#debug {
+	position: absolute;
+	width: 450px;
+	height: 50px;
+	
+	padding: 6px;
+	
+	top: 100%; left: 100%;
+	margin: -62px 0 0 -462px;
+	
+	text-align: right;
+	
+	color: #fff;
+	font-family: courier new;
+	font-size: 12px;
+	
+	border-radius: 15px 0 0 0;
+	
+	background-color: #666;
+	
+	display: none;
+}
+#stats {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	
+	bottom: 0px;
+	left: 0px;
+	margin-bottom: -6px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	background-color: #444;
+	display: none;
+}
+#charinfo {
+	position: relative;
+	width: 30%;
+	height: 100%;
+	color: #fff;
+	background-color: #222;
+	float: left;
+	display: inline;
+}
+#game-history {
+	position: relative;
+	width: 40%;
+	height: 100%;
+	border-left: solid 3px white;
+	border-right: solid 3px white;
+	color: #fff;
+	background-color: #444;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	float: left;
+	display: inline;
+}
+#chat-history {
+	position: absolute;
+	height: 100%;
+	width: 30%;
+	display: inline;
+	float: left;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background-color: #444;
+	color:#fff;
+}
+#chat {
+	position: absolute;
+	width: 30%;
+	right: 0px;
+	bottom: 0px;
+	display: none;
+}
+#chat input {
+	position: relative;
+	background: #888;
+	width: 100%;
+	color: #fff;
+	height: 19px;
+}
+#menu {
+	position: absolute;
+	width: 240px;
+	height: 500px;
+	
+	top: 50%; left: 50%;
+	margin: -250px 0 0 -120px;
+	
+	text-align: center;
+	
+	border: 3px solid #fff;
+	border-radius: 15px;
+	
+	background-color: #E36B23;
+	box-shadow: 2px 10px 5px #888;
+}
+#menu p {
+	padding-left: 20px;
+	text-align: left;
+	font-weight: bold;
+	color: #fff;
+}
+#menu p .indent {
+	padding-left: 20px;
+}
+#menu p .control {
+	color: #FF0;
+}
+#menu p a {
+	color: #fff;
+}
+#menu button {
+	width: 80px;
+	height: 25px;
+	
+	background-color: #C44032;
+	
+	border: 3px solid #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+#points {
+	position: absolute;
+	width: 120px;
+	height: 24px;
+	
+	padding: 6px;
+	
+	top: 20px;
+	right: 20px;
+	
+	border: 3px solid #fff;
+	border-radius: 15px;
+	
+	background-color: #E36B23;
+	box-shadow: 2px 5px 3px #888;
+	
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	
+	text-align: right;
+	
+	display: none;
+}
